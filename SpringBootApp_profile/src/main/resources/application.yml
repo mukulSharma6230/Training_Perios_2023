@@ -1,0 +1,21 @@
+spring:
+  proflies: prod
+  server:
+    port: 4040
+  employee-service:
+    id: 1111
+    name: mukul sharma
+---   
+  proflies: dev
+  server:
+    port: 4041
+  employee-service:
+    id: 1112
+    name: rohit 
+---
+  proflies: qa
+  server:
+    port: 4042  
+  employee-service:
+    id: 1113
+    name: trilok  
